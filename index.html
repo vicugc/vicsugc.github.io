@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Victor | Elite UGC Creator</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+<style>
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:'Inter', sans-serif;
+}
+
+body{
+background:#05070a;
+color:white;
+}
+
+/* Accent color */
+:root{
+--blue:#6fd3ff;
+}
+
+/* HERO */
+
+.hero{
+padding:120px 8%;
+display:flex;
+justify-content:space-between;
+align-items:center;
+flex-wrap:wrap;
+gap:60px;
+}
+
+.hero-text{
+max-width:620px;
+}
+
+.hero h1{
+font-size:3.2rem;
+font-weight:700;
+letter-spacing:-1px;
+}
+
+.hero p{
+color:#b6c2cf;
+margin-top:18px;
+line-height:1.7;
+font-size:1.05rem;
+}
+
+.stats{
+display:flex;
+gap:40px;
+margin-top:30px;
+flex-wrap:wrap;
+}
+
+.stat h2{
+color:var(--blue);
+font-size:1.9rem;
+}
+
+.stat p{
+color:#8ca3b8;
+font-size:.9rem;
+}
+
+.cta{
+margin-top:35px;
+}
+
+.cta a{
+text-decoration:none;
+background:var(--blue);
+color:black;
+padding:14px 26px;
+border-radius:12px;
+font-weight:600;
+transition:.25s;
+}
+
+.cta a:hover{
+transform:translateY(-4px);
+}
+
+/* CREATOR PHOTOS */
+
+.creator-images{
+display:flex;
+gap:20px;
+flex-wrap:wrap;
+}
+
+.creator-images img{
+width:260px;
+height:320px;
+object-fit:cover;
+border-radius:20px;
+border:1px solid #0e1620;
+}
+
+/* SECTIONS */
+
+.section{
+padding:90px 8%;
+}
+
+.section h2{
+font-size:2rem;
+margin-bottom:35px;
+font-weight:600;
+}
+
+/* VIDEO GRID */
+
+.grid{
+display:grid;
+grid-template-columns:repeat(auto-fit, minmax(260px,1fr));
+gap:25px;
+}
+
+.video-card{
+background:#0b1118;
+padding:12px;
+border-radius:18px;
+transition:.25s;
+}
+
+.video-card:hover{
+transform:translateY(-6px);
+border:1px solid var(--blue);
+}
+
+video{
+width:100%;
+border-radius:12px;
+}
+
+/* BRAND LOGOS */
+
+.brands{
+display:grid;
+grid-template-columns:repeat(auto-fit, minmax(140px,1fr));
+gap:30px;
+align-items:center;
+}
+
+.brands img{
+width:140px;
+height:70px;
+object-fit:contain;
+filter:grayscale(100%);
+opacity:.8;
+transition:.3s;
+}
+
+.brands img:hover{
+filter:none;
+opacity:1;
+transform:scale(1.08);
+}
+
+
+/* BIO */
+
+.bio{
+max-width:750px;
+color:#b6c2cf;
+line-height:1.8;
+}
+
+/* CONNECT */
+
+.connect{
+text-align:center;
+padding-bottom:120px;
+}
+
+.socials{
+margin-top:25px;
+display:flex;
+justify-content:center;
+gap:30px;
+flex-wrap:wrap;
+}
+
+.socials a{
+text-decoration:none;
+color:white;
+background:#0c141d;
+padding:14px 20px;
+border-radius:14px;
+display:flex;
+align-items:center;
+gap:10px;
+transition:.25s;
+}
+
+.socials a:hover{
+background:var(--blue);
+color:black;
+}
+
+/* FOOTER */
+
+footer{
+text-align:center;
+padding:40px;
+color:#6b7c8f;
+}
+
+</style>
+</head>
+
+<body>
+
+<!-- HERO -->
+
+<section class="hero">
+
+<div class="hero-text">
+
+<h1>Victor — UGC Creator</h1>
+
+<p>
+Helping brands drive revenue, build trust, and connect with audiences through high-performing content.
+</p>
+
+<div class="stats">
+<div class="stat">
+<h2>96K+</h2>
+<p>Sales Generated</p>
+</div>
+
+<div class="stat">
+<h2>5.5M</h2>
+<p>Total Views</p>
+</div>
+
+<div class="stat">
+<h2>TX</h2>
+<p>Based in Texas</p>
+</div>
+</div>
+
+<div class="cta">
+<a href="mailto:vicwence7@gmail.com">Work With Me</a>
+</div>
+
+</div>
+
+<!-- YOUR PHOTOS -->
+<div class="creator-images">
+
+<!-- REPLACE THESE WITH YOUR PHOTOS -->
+<img src="yourphoto1.jpg">
+<img src="yourphoto2.jpg">
+
+</div>
+
+</section>
+
+
+<!-- FEATURED WORK -->
+
+<section class="section">
+
+<h2>Featured Work</h2>
+
+<div class="grid">
+
+<div class="video-card">
+<video controls>
+<source src="video1.mp4" type="video/mp4">
+</video>
+</div>
+
+<div class="video-card">
+<video controls>
+<source src="video2.mp4" type="video/mp4">
+</video>
+</div>
+
+<div class="video-card">
+<video controls>
+<source src="video3.mp4" type="video/mp4">
+</video>
+</div>
+
+<div class="video-card">
+<video controls>
+<source src="video4.mp4" type="video/mp4">
+</video>
+</div>
+
+</div>
+
+</section>
+
+
+<!-- BRANDS -->
+
+<section class="section">
+
+<h2>Brands I've Worked With</h2>
+
+<div class="brands">
+
+<img src="divoom.png" alt="Divoom Logo">
+
+<!-- ADD FUTURE LOGOS BELOW -->
+<img src="brand2.png" alt="Brand Logo">
+<img src="brand3.png" alt="Brand Logo">
+<img src="brand4.png" alt="Brand Logo">
+
+</div>
+
+</section>
+
+
+
+<!-- BIO -->
+
+<section class="section">
+
+<h2>About Me</h2>
+
+<p class="bio">
+My name is Victor and I am a 22 year old bilingual content creator. I have been in content creation and streaming since 2021. Whenever I work with a brand I focus on delivering quality content + content that connects with the viewer. I'm very passionate about my craft and I pride myself on helping brands achieve their message to the viewer as well.
+</p>
+
+</section>
+
+
+<!-- LETS CONNECT -->
+
+<section class="connect">
+
+<h2>Let's Connect</h2>
+
+<div class="socials">
+
+<a href="mailto:vicwence7@gmail.com">
+📩 Email
+</a>
+
+<a href="https://tiktok.com/@vicsugc" target="_blank">
+<!-- Replace with TikTok logo if desired -->
+🎵 TikTok @vicsugc
+</a>
+
+<a href="https://instagram.com/therealieecii" target="_blank">
+📸 Instagram @therealieecii
+</a>
+
+</div>
+
+</section>
+
+
+<footer>
+© 2026 Victor — UGC Creator
+</footer>
+
+</body>
+</html>
