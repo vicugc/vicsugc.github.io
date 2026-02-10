@@ -120,29 +120,34 @@ font-weight:600;
 
 /* VIDEO GRID */
 
+/* VIDEO GRID */
+
 .grid{
-display:grid;
-grid-template-columns:repeat(auto-fit, minmax(260px,1fr));
-gap:25px;
+  display:grid;
+  grid-template-columns:repeat(auto-fit, minmax(260px,1fr));
+  gap:25px;
 }
 
-.video-card video {
-  aspect-ratio: 9 / 16; /* TikTok / UGC style */
-  object-fit: cover;
-  background: #000;
+.video-card{
+  background:#0b1118;
+  padding:12px;
+  border-radius:18px;
+  transition:.25s;
 }
 
+.video-card:hover{
+  box-shadow: 0 20px 40px rgba(111,211,255,0.15);
+  border:1px solid var(--blue);
+}
 
 .video-card video{
+  width:100%;
   aspect-ratio:9 / 16;
   object-fit:cover;
+  border-radius:12px;
   background:#000;
 }
 
-video{
-width:100%;
-border-radius:12px;
-}
 
 /* BRAND LOGOS */
 
